@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu Mono", monospace;
+    list-style-type: none;
+}
+::placeholder {
+    color: #023047;
+    font-weight: 700;
+}
+body {
+    background-color: #8ecae6;
+    color: #264653;
+}
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 15px;
+}
+.input-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.input-box .btn-search,
+.input-box .input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #219ebc;
+    border-radius: 24px 0 0 24px;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.input-box .btn-search {
+    width: auto;
+    background-color: #023047;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0 24px 24px 0;
+}
+
+.country-box .show-country {
+    background-color: #2a9d8f;
+    border-radius: 25px;
+    margin: 2rem 0;
+    padding: 2rem;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+.country-box .show-country .name {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.country-box .show-country .temp {
+    font-size: 7rem;
+    text-align: center;
+    color: #fff;
+}
+.country-box .show-country .img-wrapper {
+    text-align: center;
+}
+.country-box .show-country .main {
+    text-align: center;
+}
+.img-wrapper {
+    text-align: center;
+}
